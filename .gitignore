@@ -1,0 +1,21 @@
+# Environment variables and secrets
+.env
+.env.*
+
+# Keep the example configuration if we create one later
+!.env.example
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Backup files
+app_backup.py
+
+# Streamlit local configuration
+.streamlit/secrets.toml
